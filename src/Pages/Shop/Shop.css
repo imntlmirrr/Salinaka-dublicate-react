@@ -1,0 +1,27 @@
+.shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopContainer{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+@media only screen and (max-width:768px){
+    .shopContainer{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
